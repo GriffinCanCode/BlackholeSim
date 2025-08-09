@@ -175,7 +175,7 @@ bool BlackHoleRenderer::initialize() {
     physics_ = std::make_unique<BlackHolePhysics>(black_hole_mass_);
     raytracer_ = std::make_unique<BlackHoleRayTracer>(*physics_, window_width_, window_height_);
     
-    // Initialize camera - centered on blackhole with fixed viewing angle
+    // Initialize camera - simple Z-axis positioning
     double initial_distance = 15.0 * physics_->schwarzschildRadius();
     Vector4 camera_pos(0, 0, 0, initial_distance);  // Position along Z-axis
     Vector4 camera_target(0, 0, 0, 0);              // Always look at blackhole center
@@ -209,11 +209,18 @@ bool BlackHoleRenderer::initialize() {
 }
 
 bool BlackHoleRenderer::setupOpenGL() {
-    // Set viewport
-    glViewport(0, 0, window_width_, window_height_);
+    // Get actual framebuffer size (important for high-DPI displays)
+    int framebuffer_width, framebuffer_height;
+    glfwGetFramebufferSize(window_, &framebuffer_width, &framebuffer_height);
+    
+    // Set viewport to actual framebuffer size
+    glViewport(0, 0, framebuffer_width, framebuffer_height);
     
     // Set clear color to space black
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    
+    std::cout << "Window size: " << window_width_ << "x" << window_height_ << std::endl;
+    std::cout << "Framebuffer size: " << framebuffer_width << "x" << framebuffer_height << std::endl;
     
     return true;
 }
@@ -328,6 +335,10 @@ void BlackHoleRenderer::render() {
 void BlackHoleRenderer::updateUniforms() {
     const Vector4& cam_pos = camera_->getPosition();
     
+    // Get actual framebuffer size for gl_FragCoord calculations
+    int framebuffer_width, framebuffer_height;
+    glfwGetFramebufferSize(window_, &framebuffer_width, &framebuffer_height);
+    
     // Set camera and scene uniforms
     blackhole_shader_->setVec3("cameraPos", 
         static_cast<float>(cam_pos.x), 
@@ -337,8 +348,8 @@ void BlackHoleRenderer::updateUniforms() {
     blackhole_shader_->setFloat("schwarzschildRadius", 
         static_cast<float>(physics_->schwarzschildRadius()));
     blackhole_shader_->setVec2("resolution", 
-        static_cast<float>(window_width_), 
-        static_cast<float>(window_height_));
+        static_cast<float>(framebuffer_width), 
+        static_cast<float>(framebuffer_height));
     
     // Set debug mode (0=normal, 1=test pattern, 2=solid color)
     blackhole_shader_->setInt("debugMode", render_mode_);
@@ -453,9 +464,18 @@ void BlackHoleRenderer::scrollCallback(GLFWwindow* window, double xoffset, doubl
 void BlackHoleRenderer::framebufferSizeCallback(GLFWwindow* window, int width, int height) {
     BlackHoleRenderer* renderer = static_cast<BlackHoleRenderer*>(glfwGetWindowUserPointer(window));
     
+    // Get actual framebuffer size (different from window size on high-DPI displays)
+    int framebuffer_width, framebuffer_height;
+    glfwGetFramebufferSize(window, &framebuffer_width, &framebuffer_height);
+    
+    // Update window dimensions for aspect ratio calculation
     renderer->window_width_ = width;
     renderer->window_height_ = height;
     renderer->camera_->setAspectRatio(static_cast<float>(width) / height);
     
-    glViewport(0, 0, width, height);
+    // Set viewport to actual framebuffer size
+    glViewport(0, 0, framebuffer_width, framebuffer_height);
+    
+    std::cout << "Resize - Window: " << width << "x" << height 
+              << ", Framebuffer: " << framebuffer_width << "x" << framebuffer_height << std::endl;
 }

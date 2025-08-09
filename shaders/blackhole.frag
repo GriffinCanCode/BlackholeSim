@@ -99,7 +99,9 @@ void main() {
     // Debug modes for testing
     if (debugMode == 1) {
         // Test pattern mode - show screen coordinates
-        vec2 screenPos = (gl_FragCoord.xy / resolution) * 2.0 - 1.0;
+        vec2 screenPos;
+        screenPos.x = (gl_FragCoord.x / resolution.x) * 2.0 - 1.0;
+        screenPos.y = (gl_FragCoord.y / resolution.y) * 2.0 - 1.0;
         vec3 color = vec3(0.1, 0.1, 0.2);
         
         // Show center as bright white
@@ -117,26 +119,25 @@ void main() {
         return;
     }
     
-    // Normal rendering mode
-    // Convert fragment coordinates to normalized device coordinates [-1, 1]
-    vec2 ndc = (gl_FragCoord.xy / resolution) * 2.0 - 1.0;
+    // Normal rendering mode - Simple coordinate system
+    vec2 screenCoords;
+    screenCoords.x = (gl_FragCoord.x / resolution.x) * 2.0 - 1.0;
+    screenCoords.y = (gl_FragCoord.y / resolution.y) * 2.0 - 1.0;
     
-    // Fix coordinate system - OpenGL has Y up, but we want standard screen coords
-    ndc.y = -ndc.y;  // Flip Y so that positive Y points up
-    
-    // Apply aspect ratio correction
+    // Simple ray tracing - camera at cameraPos looking at origin
     float aspectRatio = resolution.x / resolution.y;
-    ndc.x *= aspectRatio;
-    
-    // Apply field of view - camera uses 45 degrees
-    float fov = 45.0 * 3.14159265359 / 180.0; // Convert to radians
+    float fov = 45.0 * 3.14159265359 / 180.0;
     float tanHalfFov = tan(fov * 0.5);
-    ndc *= tanHalfFov;
     
-    // Generate ray direction from camera position through screen point
-    // Camera at (0, 0, cameraPos.z) looking toward (0, 0, 0)
-    // At screen center (0,0), ray should point directly toward black hole
-    vec3 rayDir = normalize(vec3(ndc.x, ndc.y, -1.0));
+    // Apply aspect ratio to screen coordinates
+    screenCoords.x *= aspectRatio;
+    
+    // Create ray direction pointing from camera toward screen point at origin
+    vec3 rayDir = normalize(vec3(
+        screenCoords.x * tanHalfFov,
+        screenCoords.y * tanHalfFov,
+        -1.0
+    ));
     
     // Distance from camera to black hole
     float distanceToBlackHole = length(cameraPos - blackholePos);
