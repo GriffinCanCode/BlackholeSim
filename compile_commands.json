@@ -1,0 +1,572 @@
+[
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/main.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/main.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/RayTracer.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/RayTracer.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/Renderer.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/Renderer.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/Renderer.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/Renderer.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/Physics.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/Physics.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/Shader.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/Shader.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/LightSimulation.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/LightSimulation.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/LightSimulation.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/LightSimulation.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGL_SILENCE_DEPRECATION -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -O3 -march=native -ffast-math -o CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp",
+  "output": "CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/context.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/init.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/init.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/input.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/input.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/monitor.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/monitor.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/vulkan.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/vulkan.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/window.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/window.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_init.m",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_init.m",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_joystick.m",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_joystick.m",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_monitor.m",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_monitor.m",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_window.m",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_window.m",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_time.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/cocoa_time.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/posix_thread.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/posix_thread.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/nsgl_context.m",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/nsgl_context.m",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/egl_context.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/egl_context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/src -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/osmesa_context.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/src/osmesa_context.c",
+  "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/boing.dir/boing.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/boing.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/boing.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/boing.dir/boing.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/gears.dir/gears.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/gears.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/gears.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/gears.dir/gears.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/heightmap.dir/heightmap.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/heightmap.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/heightmap.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/heightmap.dir/heightmap.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/offscreen.dir/offscreen.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/offscreen.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/offscreen.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/offscreen.dir/offscreen.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/particles.dir/particles.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/particles.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/particles.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/particles.dir/particles.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/sharing.dir/sharing.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/sharing.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/sharing.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/sharing.dir/sharing.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/simple.dir/simple.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/simple.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/simple.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/simple.dir/simple.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/splitview.dir/splitview.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/splitview.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/splitview.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/splitview.dir/splitview.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/wave.dir/wave.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/wave.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/examples/wave.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/wave.dir/wave.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/examples",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/clipboard.dir/clipboard.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/clipboard.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/clipboard.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/clipboard.dir/clipboard.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/events.dir/events.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/events.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/events.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/events.dir/events.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/msaa.dir/msaa.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/msaa.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/msaa.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/msaa.dir/msaa.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/glfwinfo.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/glfwinfo.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_vulkan.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_vulkan.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/iconify.dir/iconify.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/iconify.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/iconify.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/iconify.dir/iconify.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/monitors.dir/monitors.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/monitors.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/monitors.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/monitors.dir/monitors.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/reopen.dir/reopen.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/reopen.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/reopen.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/reopen.dir/reopen.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/cursor.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/cursor.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/cursor.dir/cursor.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/empty.dir/empty.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/empty.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/empty.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/empty.dir/empty.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/gamma.dir/gamma.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/gamma.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/gamma.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/gamma.dir/gamma.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/icon.dir/icon.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/icon.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/icon.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/icon.dir/icon.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/inputlag.dir/inputlag.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/inputlag.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/inputlag.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/inputlag.dir/inputlag.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/joysticks.dir/joysticks.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/joysticks.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/joysticks.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/joysticks.dir/joysticks.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/opacity.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/opacity.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/opacity.dir/opacity.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/tearing.dir/tearing.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/tearing.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/tearing.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/tearing.dir/tearing.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/threads.dir/threads.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/threads.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/threads.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/threads.dir/threads.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/tinycthread.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/timeout.dir/timeout.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/timeout.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/timeout.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/timeout.dir/timeout.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/title.dir/title.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/title.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/title.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/title.dir/title.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/triangle-vulkan.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/triangle-vulkan.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_vulkan.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_vulkan.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/windows.dir/windows.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/windows.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/tests/windows.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/windows.dir/windows.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/getopt.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o"
+},
+{
+  "directory": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/griffinstrier/projects/BlackholeSim/include -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps -I/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include -O3 -DNDEBUG -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "file": "/Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/deps/glad_gl.c",
+  "output": "_deps/glfw-build/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.o"
+}
+]

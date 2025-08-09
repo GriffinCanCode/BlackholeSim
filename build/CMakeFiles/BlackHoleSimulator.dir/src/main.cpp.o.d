@@ -1,7 +1,7 @@
 CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o: \
   /Users/griffinstrier/projects/BlackholeSim/src/main.cpp \
-  /Users/griffinstrier/projects/BlackholeSim/include/Renderer.h \
-  /Users/griffinstrier/projects/BlackholeSim/include/Shader.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/Renderer.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/Shader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -672,7 +672,7 @@ CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/container_traits.h \
-  /Users/griffinstrier/projects/BlackholeSim/include/Physics.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/Physics.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
@@ -762,24 +762,14 @@ CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/griffinstrier/projects/BlackholeSim/include/RayTracer.h \
-  /Users/griffinstrier/projects/BlackholeSim/build/_deps/glfw-src/include/GLFW/glfw3.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/format \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/deque.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/queue.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/deque \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/RayTracer.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/LightSystem.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/RelativisticJets.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/BlackHoleSonification.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/KerrPhysics.h \
+  /Users/griffinstrier/projects/BlackholeSim/src/../include/MelodiousCalculator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -796,7 +786,158 @@ CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AUComponent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUComponent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioComponent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/Block.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/MacTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/ConditionalMacros.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrauth.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/AudioSessionTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/_static_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/setjmp.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBag.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBinaryHeap.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBitVector.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/libkern/OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_os_inline.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/arm/arch.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCalendar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFLocale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNotificationCenter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTimeZone.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCharacterSet.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFError.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCGTypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDateFormatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumberFormatter.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPreferences.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/port.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/boolean.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/machine/boolean.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/arm/boolean.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/machine/vm_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/arm/vm_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/dispatch.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/base.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_select.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/gethostuuid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/fcntl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/fcntl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_o_sync.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_o_dsync.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_filesec_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/object.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/workgroup.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/workgroup_base.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/workgroup_object.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/workgroup_interval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/os/workgroup_parallel.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/base.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/clock_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/time_value.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/object.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/queue.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/block.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/source.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/message.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/kern_return.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/machine/kern_return.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/arm/kern_return.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/group.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/semaphore.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/once.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/data.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/io.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/workloop.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/dispatch/dispatch_swift_shims.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSet.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringEncodingExt.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTree.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLAccess.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUUID.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUtilities.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/mach/machine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugIn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMachPort.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAttributedString.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLEnumerator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileSecurity.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/acl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/kauth.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_guid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringTokenizer.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileDescriptor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUserNotification.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLNode.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLParser.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioCodec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioCodec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioComponent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioOutputUnit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioOutputUnit.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnitParameters.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioUnitParameters.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnitProperties.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioUnitProperties.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/MusicDevice.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/MusicDevice.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareBase.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardwareDeprecated.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/HostTime.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/stack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print

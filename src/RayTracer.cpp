@@ -2,15 +2,20 @@
 #include <cmath>
 #include <random>
 #include <algorithm>
+#include <memory>
 
 BlackHoleRayTracer::BlackHoleRayTracer(const BlackHolePhysics& physics, int width, int height)
     : physics_(physics), width_(width), height_(height), max_iterations_(10000),
-      min_step_size_(0.001), max_step_size_(0.1), accretion_disk_enabled_(true) {
+      min_step_size_(0.001), max_step_size_(0.1), accretion_disk_enabled_(true),
+      spectral_rendering_(true) {
     
-    // Accretion disk parameters (in units of Schwarzschild radius)
-    disk_inner_radius_ = 3.0 * physics_.schwarzschildRadius();  // ISCO
-    disk_outer_radius_ = 20.0 * physics_.schwarzschildRadius();
-    disk_height_ = 0.1 * physics_.schwarzschildRadius();
+    // Create light simulation system
+    light_simulation_ = std::make_unique<SimpleLightSystem>(physics_);
+    
+    // Accretion disk parameters - use ISCO for inner radius
+    disk_inner_radius_ = physics_.innerStableCircularOrbit();    // ISCO (Kerr-aware)
+    disk_outer_radius_ = 20.0 * physics_.outerHorizonRadius();   // Use outer horizon for Kerr
+    disk_height_ = 0.1 * physics_.outerHorizonRadius();
     
     generateStarField();
 }
@@ -27,16 +32,19 @@ RayTracingResult BlackHoleRayTracer::traceRays(const Vector4& camera_position,
     result.escaped_rays.reserve(rays.size());
     result.captured_rays.reserve(rays.size());
     result.final_distances.reserve(rays.size());
+    result.final_colors.reserve(rays.size());
     
     // Trace each ray
     for (auto& ray : rays) {
         bool escaped = traceSingleRay(ray);
+        SpectralColor ray_color = calculateRayColor(ray, camera_position);
         
         result.ray_paths.push_back(ray.path);
         result.escaped_rays.push_back(escaped);
         result.captured_rays.push_back(!escaped && physics_.isInsideEventHorizon(
             VectorMath::magnitude3D(ray.position)));
         result.final_distances.push_back(VectorMath::magnitude3D(ray.position));
+        result.final_colors.push_back(ray_color);
     }
     
     return result;
@@ -86,7 +94,7 @@ bool BlackHoleRayTracer::traceSingleRay(Ray& ray, double max_affine_parameter) {
     
     // Ray escaped if it's far from the black hole
     double final_distance = VectorMath::magnitude3D(ray.position);
-    return final_distance > 50.0 * physics_.schwarzschildRadius();
+    return final_distance > 50.0 * physics_.outerHorizonRadius();
 }
 
 std::vector<Ray> BlackHoleRayTracer::generateCameraRays(const Vector4& camera_pos,
@@ -118,54 +126,113 @@ std::vector<Ray> BlackHoleRayTracer::generateCameraRays(const Vector4& camera_po
     return rays;
 }
 
-Vector4 BlackHoleRayTracer::sampleBackground(const Vector4& direction) const {
-    // Simple procedural star field
-    Vector4 normalized_dir = VectorMath::normalize3D(direction);
+SpectralColor BlackHoleRayTracer::sampleBackground(const Vector4& direction, const Vector4& observer) const {
+    if (!spectral_rendering_) {
+        // Fallback to simple star field
+        Vector4 normalized_dir = VectorMath::normalize3D(direction);
+        double hash = std::sin(normalized_dir.x * 12.9898 + normalized_dir.y * 78.233 + normalized_dir.z * 37.719) * 43758.5453;
+        hash = hash - std::floor(hash);
+        
+        if (hash > 0.995) {
+            return SpectralColor(1.0, 1.0, 0.8);  // Bright white-blue
+        } else if (hash > 0.99) {
+            return SpectralColor(0.8, 0.7, 0.5);  // Yellow-white
+        } else if (hash > 0.985) {
+            return SpectralColor(0.6, 0.4, 0.3);  // Orange-red
+        } else {
+            return SpectralColor(0.05, 0.05, 0.1);  // Very dark blue
+        }
+    }
     
-    // Create pseudo-random stars based on direction
+    Vector4 normalized_dir = VectorMath::normalize3D(direction);
     double hash = std::sin(normalized_dir.x * 12.9898 + normalized_dir.y * 78.233 + normalized_dir.z * 37.719) * 43758.5453;
     hash = hash - std::floor(hash);
     
     if (hash > 0.995) {
-        // Bright star
-        return Vector4(0, 1.0, 1.0, 0.8);  // Bright white-blue
+        // Bright star with realistic stellar spectrum
+        double star_temp = 8000.0 + hash * 10000.0;  // Hot blue-white stars
+        // Simple starlight color based on temperature
+        return light_simulation_->temperatureToRGB(star_temp);
     } else if (hash > 0.99) {
-        // Medium star
-        return Vector4(0, 0.8, 0.7, 0.5);  // Yellow-white
+        // Medium star - sun-like
+        double star_temp = 5000.0 + hash * 3000.0;  // Yellow-white stars
+        // Simple starlight color based on temperature
+        return light_simulation_->temperatureToRGB(star_temp);
     } else if (hash > 0.985) {
-        // Dim star
-        return Vector4(0, 0.6, 0.4, 0.3);  // Orange-red
+        // Dim star - red dwarf
+        double star_temp = 3000.0 + hash * 2000.0;  // Red stars
+        // Simple starlight color based on temperature
+        return light_simulation_->temperatureToRGB(star_temp);
     } else {
-        // Dark space
-        return Vector4(0, 0.05, 0.05, 0.1);  // Very dark blue
+        // Deep space background
+        return SpectralColor(0.02, 0.02, 0.05);  // Very dark blue
     }
 }
 
-Vector4 BlackHoleRayTracer::sampleAccretionDisk(const Vector4& position) const {
+SpectralColor BlackHoleRayTracer::sampleAccretionDisk(const Vector4& position, const Vector4& observer) const {
     if (!accretion_disk_enabled_) {
-        return Vector4(0, 0, 0, 0);
+        return SpectralColor(0, 0, 0, 0);
     }
     
+    if (spectral_rendering_ && light_simulation_) {
+        // Use enhanced accretion disk model with proper physics
+        return light_simulation_->accretionDiskColor(position, observer);
+    }
+    
+    // Fallback to simple temperature gradient
     double r = std::sqrt(position.x * position.x + position.y * position.y + position.z * position.z);
     double height = std::abs(position.z);
     
-    // Check if position is within accretion disk
     if (r >= disk_inner_radius_ && r <= disk_outer_radius_ && height <= disk_height_) {
-        // Temperature gradient: hotter closer to black hole
         double temp_factor = disk_outer_radius_ / r;
-        
-        // Blackbody radiation approximation
         double red = std::min(1.0, temp_factor * 0.3);
         double green = std::min(1.0, temp_factor * 0.8);
         double blue = std::min(1.0, temp_factor * 1.0);
         
-        // Add some turbulence
         double turbulence = 0.1 * std::sin(position.x * 10) * std::cos(position.y * 8);
-        
-        return Vector4(0, red + turbulence, green + turbulence, blue);
+        return SpectralColor(red + turbulence, green + turbulence, blue);
     }
     
-    return Vector4(0, 0, 0, 0);
+    return SpectralColor(0, 0, 0, 0);
+}
+
+SpectralColor BlackHoleRayTracer::calculateRayColor(const Ray& ray, const Vector4& observer_position) const {
+    double final_distance = VectorMath::magnitude3D(ray.position);
+    
+    // Ray captured by black hole - pure black
+    if (physics_.isInsideEventHorizon(final_distance)) {
+        return SpectralColor(0, 0, 0, 0);
+    }
+    
+    // Check if ray intersected accretion disk along its path
+    SpectralColor total_color(0, 0, 0, 0);
+    bool found_disk_intersection = false;
+    
+    // Sample along the ray path for disk intersections
+    if (ray.path.size() > 1) {
+        for (size_t i = 1; i < ray.path.size(); ++i) {
+            SpectralColor disk_color = sampleAccretionDisk(ray.path[i], observer_position);
+            if (disk_color.r > 0.01 || disk_color.g > 0.01 || disk_color.b > 0.01) {
+                total_color = total_color + disk_color;
+                found_disk_intersection = true;
+            }
+        }
+    }
+    
+    // If no disk intersection, sample background in final ray direction
+    if (!found_disk_intersection) {
+        Vector4 final_direction = VectorMath::normalize3D(ray.direction);
+        total_color = sampleBackground(final_direction, observer_position);
+    }
+    
+    // Apply gravitational lensing brightness enhancement
+    double lensing_brightness = 1.0;
+    if (final_distance > 2.0 * physics_.outerHorizonRadius()) {
+        double horizon_radius = physics_.outerHorizonRadius();
+        lensing_brightness = 1.0 + 0.1 * horizon_radius / (final_distance * final_distance);
+    }
+    
+    return total_color * lensing_brightness;
 }
 
 bool BlackHoleRayTracer::checkTerminationConditions(const Ray& ray) const {
@@ -177,7 +244,7 @@ bool BlackHoleRayTracer::checkTerminationConditions(const Ray& ray) const {
     }
     
     // Ray escaped to infinity
-    if (distance > 100.0 * physics_.schwarzschildRadius()) {
+    if (distance > 100.0 * physics_.outerHorizonRadius()) {
         return true;
     }
     
@@ -185,25 +252,59 @@ bool BlackHoleRayTracer::checkTerminationConditions(const Ray& ray) const {
 }
 
 Vector4 BlackHoleRayTracer::calculateInitialMomentum(const Vector4& position, const Vector4& direction) const {
-    // For photons, we need to ensure the momentum satisfies the null condition
-    // in Schwarzschild coordinates
+    // For photons, we need to ensure the momentum satisfies the null geodesic condition:
+    // g_μν p^μ p^ν = 0 in curved spacetime
     double r = position.x;
     
-    if (r <= physics_.schwarzschildRadius()) {
+    if (physics_.isInsideEventHorizon(r)) {
         return Vector4(0, 0, 0, 0);
     }
     
-    // Normalize direction
+    // Normalize direction vector
     Vector4 norm_dir = VectorMath::normalize3D(direction);
     
-    // Energy component (conserved)
-    double E = 1.0;  // Photon energy
-    
-    // Calculate momentum components ensuring null geodesic condition
+    // Get metric components at this position
     double gtt = physics_.metricGtt(r);
-    double pt = E / (-gtt);  // dt/dλ
+    double grr = physics_.metricGrr(r);
+    double gtheta = physics_.metricGthetatheta(r);
     
-    return Vector4(pt, norm_dir.x, norm_dir.y, norm_dir.z);
+    // Extract theta from position (assuming spherical coordinates in Vector4)
+    // For proper coordinate handling, convert cartesian to spherical if needed
+    double theta = (position.y != 0) ? position.y : Constants::PI / 2.0;  // Default to equatorial plane
+    double gphi = physics_.metricGphiphi(r, theta);
+    
+    // Set spatial momentum components from normalized direction
+    double pr = norm_dir.x;
+    double ptheta = norm_dir.y;  
+    double pphi = norm_dir.z;
+    
+    // Calculate spatial momentum squared: g_ij p^i p^j
+    double spatial_momentum_sq = grr * pr * pr + 
+                                gtheta * ptheta * ptheta + 
+                                gphi * pphi * pphi;
+    
+    // From null condition: g_tt (p^t)² + spatial_momentum_sq = 0
+    // Therefore: p^t = sqrt(-spatial_momentum_sq / g_tt)
+    double pt_squared = -spatial_momentum_sq / gtt;
+    
+    // Ensure we don't take sqrt of negative number (numerical safety)
+    if (pt_squared < 0.0) {
+        pt_squared = 0.0;
+    }
+    
+    double pt = std::sqrt(pt_squared);
+    
+    // Ensure reasonable energy scale (photon energy E ~ 1)
+    double energy_scale = 1.0;
+    if (pt > 0.0) {
+        energy_scale = 1.0 / pt;  // Normalize to unit energy
+        pt *= energy_scale;
+        pr *= energy_scale;
+        ptheta *= energy_scale;
+        pphi *= energy_scale;
+    }
+    
+    return Vector4(pt, pr, ptheta, pphi);
 }
 
 void BlackHoleRayTracer::generateStarField() {

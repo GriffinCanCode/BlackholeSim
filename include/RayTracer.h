@@ -1,5 +1,6 @@
 #pragma once
 #include "Physics.h"
+#include "LightSystem.h"
 #include <vector>
 #include <array>
 
@@ -25,6 +26,7 @@ struct RayTracingResult {
     std::vector<bool> escaped_rays;
     std::vector<bool> captured_rays;
     std::vector<double> final_distances;
+    std::vector<SpectralColor> final_colors;  // Enhanced with spectral color information
 };
 
 class BlackHoleRayTracer {
@@ -44,17 +46,19 @@ public:
                                        const Vector4& camera_target,
                                        double fov_degrees);
     
-    // Background star field for visualization
-    Vector4 sampleBackground(const Vector4& direction) const;
+    // Enhanced color sampling with light simulation
+    SpectralColor sampleBackground(const Vector4& direction, const Vector4& observer) const;
+    SpectralColor sampleAccretionDisk(const Vector4& position, const Vector4& observer) const;
     
-    // Accretion disk modeling
-    Vector4 sampleAccretionDisk(const Vector4& position) const;
+    // Light simulation integration
+    SpectralColor calculateRayColor(const Ray& ray, const Vector4& observer_position) const;
     
     // Settings
     void setMaxIterations(int max_iter) { max_iterations_ = max_iter; }
     void setMinStepSize(double min_step) { min_step_size_ = min_step; }
     void setMaxStepSize(double max_step) { max_step_size_ = max_step; }
     void setAccretionDiskEnabled(bool enabled) { accretion_disk_enabled_ = enabled; }
+    void enableSpectralRendering(bool enabled) { spectral_rendering_ = enabled; }
     
     // Getters
     int getWidth() const { return width_; }
@@ -62,11 +66,13 @@ public:
     
 private:
     const BlackHolePhysics& physics_;
+    std::unique_ptr<SimpleLightSystem> light_simulation_;
     int width_, height_;
     int max_iterations_;
     double min_step_size_;
     double max_step_size_;
     bool accretion_disk_enabled_;
+    bool spectral_rendering_;
     
     // Accretion disk parameters
     double disk_inner_radius_;

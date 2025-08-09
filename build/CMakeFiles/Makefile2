@@ -255,12 +255,12 @@ _deps/glfw-build/tests/clean: _deps/glfw-build/tests/CMakeFiles/windows.dir/clea
 CMakeFiles/BlackHoleSimulator.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=1,2,3,4 "Built target BlackHoleSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target BlackHoleSimulator"
 .PHONY : CMakeFiles/BlackHoleSimulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BlackHoleSimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BlackHoleSimulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : CMakeFiles/BlackHoleSimulator.dir/rule
@@ -272,7 +272,7 @@ BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/rule
 # codegen rule for target.
 CMakeFiles/BlackHoleSimulator.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target BlackHoleSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target BlackHoleSimulator"
 .PHONY : CMakeFiles/BlackHoleSimulator.dir/codegen
 
 # clean rule for target.
@@ -351,12 +351,12 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
 _deps/glfw-build/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40 "Built target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/rule
@@ -368,7 +368,7 @@ glfw: _deps/glfw-build/src/CMakeFiles/glfw.dir/rule
 # codegen rule for target.
 _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37 "Finished codegen for target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40 "Finished codegen for target glfw"
 .PHONY : _deps/glfw-build/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
@@ -383,12 +383,12 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/boing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/boing.dir/build.make _deps/glfw-build/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/boing.dir/build.make _deps/glfw-build/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=5,6,7 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=11,12 "Built target boing"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/boing.dir/rule
@@ -400,7 +400,7 @@ boing: _deps/glfw-build/examples/CMakeFiles/boing.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/boing.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/boing.dir/build.make _deps/glfw-build/examples/CMakeFiles/boing.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=5,6,7 "Finished codegen for target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=11,12 "Finished codegen for target boing"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/boing.dir/codegen
 
 # clean rule for target.
@@ -415,12 +415,12 @@ _deps/glfw-build/examples/CMakeFiles/boing.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/gears.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/gears.dir/build.make _deps/glfw-build/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/gears.dir/build.make _deps/glfw-build/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=22,23,24 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=27,28 "Built target gears"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/gears.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/gears.dir/rule
@@ -432,7 +432,7 @@ gears: _deps/glfw-build/examples/CMakeFiles/gears.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/gears.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/gears.dir/build.make _deps/glfw-build/examples/CMakeFiles/gears.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=22,23,24 "Finished codegen for target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=27,28 "Finished codegen for target gears"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/gears.dir/codegen
 
 # clean rule for target.
@@ -447,12 +447,12 @@ _deps/glfw-build/examples/CMakeFiles/gears.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/heightmap.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build.make _deps/glfw-build/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build.make _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=42,43 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=45,46 "Built target heightmap"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/heightmap.dir/rule
@@ -464,7 +464,7 @@ heightmap: _deps/glfw-build/examples/CMakeFiles/heightmap.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/heightmap.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build.make _deps/glfw-build/examples/CMakeFiles/heightmap.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=42,43 "Finished codegen for target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=45,46 "Finished codegen for target heightmap"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/heightmap.dir/codegen
 
 # clean rule for target.
@@ -479,12 +479,12 @@ _deps/glfw-build/examples/CMakeFiles/heightmap.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/offscreen.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build.make _deps/glfw-build/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build.make _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=62,63,64 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=64,65,66 "Built target offscreen"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/offscreen.dir/rule
@@ -496,7 +496,7 @@ offscreen: _deps/glfw-build/examples/CMakeFiles/offscreen.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/offscreen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build.make _deps/glfw-build/examples/CMakeFiles/offscreen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=62,63,64 "Finished codegen for target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=64,65,66 "Finished codegen for target offscreen"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/offscreen.dir/codegen
 
 # clean rule for target.
@@ -511,12 +511,12 @@ _deps/glfw-build/examples/CMakeFiles/offscreen.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/particles.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/particles.dir/build.make _deps/glfw-build/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/particles.dir/build.make _deps/glfw-build/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=67,68,69,70 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=69,70,71,72 "Built target particles"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/particles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/particles.dir/rule
@@ -528,7 +528,7 @@ particles: _deps/glfw-build/examples/CMakeFiles/particles.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/particles.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/particles.dir/build.make _deps/glfw-build/examples/CMakeFiles/particles.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=67,68,69,70 "Finished codegen for target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=69,70,71,72 "Finished codegen for target particles"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/particles.dir/codegen
 
 # clean rule for target.
@@ -543,12 +543,12 @@ _deps/glfw-build/examples/CMakeFiles/particles.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/sharing.dir/build.make _deps/glfw-build/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/sharing.dir/build.make _deps/glfw-build/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=74,75 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=75,76 "Built target sharing"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/sharing.dir/rule
@@ -560,7 +560,7 @@ sharing: _deps/glfw-build/examples/CMakeFiles/sharing.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/sharing.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/sharing.dir/build.make _deps/glfw-build/examples/CMakeFiles/sharing.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=74,75 "Finished codegen for target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=75,76 "Finished codegen for target sharing"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/sharing.dir/codegen
 
 # clean rule for target.
@@ -575,12 +575,12 @@ _deps/glfw-build/examples/CMakeFiles/sharing.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/simple.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/simple.dir/build.make _deps/glfw-build/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/simple.dir/build.make _deps/glfw-build/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=76,77,78 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=77,78,79 "Built target simple"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/simple.dir/rule
@@ -592,7 +592,7 @@ simple: _deps/glfw-build/examples/CMakeFiles/simple.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/simple.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/simple.dir/build.make _deps/glfw-build/examples/CMakeFiles/simple.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=76,77,78 "Finished codegen for target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=77,78,79 "Finished codegen for target simple"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/simple.dir/codegen
 
 # clean rule for target.
@@ -607,12 +607,12 @@ _deps/glfw-build/examples/CMakeFiles/simple.dir/clean:
 _deps/glfw-build/examples/CMakeFiles/splitview.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/splitview.dir/build.make _deps/glfw-build/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/splitview.dir/build.make _deps/glfw-build/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=79,80 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=80,81 "Built target splitview"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/splitview.dir/rule
@@ -624,7 +624,7 @@ splitview: _deps/glfw-build/examples/CMakeFiles/splitview.dir/rule
 # codegen rule for target.
 _deps/glfw-build/examples/CMakeFiles/splitview.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/splitview.dir/build.make _deps/glfw-build/examples/CMakeFiles/splitview.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=79,80 "Finished codegen for target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=80,81 "Finished codegen for target splitview"
 .PHONY : _deps/glfw-build/examples/CMakeFiles/splitview.dir/codegen
 
 # clean rule for target.
@@ -644,7 +644,7 @@ _deps/glfw-build/examples/CMakeFiles/wave.dir/all: _deps/glfw-build/src/CMakeFil
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/examples/CMakeFiles/wave.dir/rule
@@ -671,12 +671,12 @@ _deps/glfw-build/examples/CMakeFiles/wave.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build.make _deps/glfw-build/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build.make _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=8,9,10 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=13,14,15 "Built target clipboard"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/clipboard.dir/rule
@@ -688,7 +688,7 @@ clipboard: _deps/glfw-build/tests/CMakeFiles/clipboard.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/clipboard.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build.make _deps/glfw-build/tests/CMakeFiles/clipboard.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=8,9,10 "Finished codegen for target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target clipboard"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/clipboard.dir/codegen
 
 # clean rule for target.
@@ -703,12 +703,12 @@ _deps/glfw-build/tests/CMakeFiles/clipboard.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/events.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/events.dir/build.make _deps/glfw-build/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/events.dir/build.make _deps/glfw-build/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=17,18,19 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=21,22,23 "Built target events"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/events.dir/rule
@@ -720,7 +720,7 @@ events: _deps/glfw-build/tests/CMakeFiles/events.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/events.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/events.dir/build.make _deps/glfw-build/tests/CMakeFiles/events.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=17,18,19 "Finished codegen for target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=21,22,23 "Finished codegen for target events"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/events.dir/codegen
 
 # clean rule for target.
@@ -735,12 +735,12 @@ _deps/glfw-build/tests/CMakeFiles/events.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/msaa.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/msaa.dir/build.make _deps/glfw-build/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/msaa.dir/build.make _deps/glfw-build/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=59,60,61 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=61,62,63 "Built target msaa"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/msaa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/msaa.dir/rule
@@ -752,7 +752,7 @@ msaa: _deps/glfw-build/tests/CMakeFiles/msaa.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/msaa.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/msaa.dir/build.make _deps/glfw-build/tests/CMakeFiles/msaa.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=59,60,61 "Finished codegen for target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=61,62,63 "Finished codegen for target msaa"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/msaa.dir/codegen
 
 # clean rule for target.
@@ -767,12 +767,12 @@ _deps/glfw-build/tests/CMakeFiles/msaa.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build.make _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build.make _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=38,39,40,41 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=41,42,43,44 "Built target glfwinfo"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/rule
@@ -784,7 +784,7 @@ glfwinfo: _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build.make _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=38,39,40,41 "Finished codegen for target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=41,42,43,44 "Finished codegen for target glfwinfo"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/codegen
 
 # clean rule for target.
@@ -799,12 +799,12 @@ _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/iconify.dir/build.make _deps/glfw-build/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/iconify.dir/build.make _deps/glfw-build/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=47,48,49 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=50,51,52 "Built target iconify"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/iconify.dir/rule
@@ -816,7 +816,7 @@ iconify: _deps/glfw-build/tests/CMakeFiles/iconify.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/iconify.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/iconify.dir/build.make _deps/glfw-build/tests/CMakeFiles/iconify.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=47,48,49 "Finished codegen for target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=50,51,52 "Finished codegen for target iconify"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/iconify.dir/codegen
 
 # clean rule for target.
@@ -831,12 +831,12 @@ _deps/glfw-build/tests/CMakeFiles/iconify.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/monitors.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/monitors.dir/build.make _deps/glfw-build/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/monitors.dir/build.make _deps/glfw-build/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=56,57,58 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=58,59,60 "Built target monitors"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/monitors.dir/rule
@@ -848,7 +848,7 @@ monitors: _deps/glfw-build/tests/CMakeFiles/monitors.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/monitors.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/monitors.dir/build.make _deps/glfw-build/tests/CMakeFiles/monitors.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=56,57,58 "Finished codegen for target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=58,59,60 "Finished codegen for target monitors"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/monitors.dir/codegen
 
 # clean rule for target.
@@ -863,12 +863,12 @@ _deps/glfw-build/tests/CMakeFiles/monitors.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/reopen.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/reopen.dir/build.make _deps/glfw-build/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/reopen.dir/build.make _deps/glfw-build/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=71,72,73 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=73,74 "Built target reopen"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/reopen.dir/rule
@@ -880,7 +880,7 @@ reopen: _deps/glfw-build/tests/CMakeFiles/reopen.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/reopen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/reopen.dir/build.make _deps/glfw-build/tests/CMakeFiles/reopen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=71,72,73 "Finished codegen for target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=73,74 "Finished codegen for target reopen"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/reopen.dir/codegen
 
 # clean rule for target.
@@ -895,12 +895,12 @@ _deps/glfw-build/tests/CMakeFiles/reopen.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/cursor.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/cursor.dir/build.make _deps/glfw-build/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/cursor.dir/build.make _deps/glfw-build/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=11,12,13 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=16,17 "Built target cursor"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/cursor.dir/rule
@@ -912,7 +912,7 @@ cursor: _deps/glfw-build/tests/CMakeFiles/cursor.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/cursor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/cursor.dir/build.make _deps/glfw-build/tests/CMakeFiles/cursor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=11,12,13 "Finished codegen for target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=16,17 "Finished codegen for target cursor"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/cursor.dir/codegen
 
 # clean rule for target.
@@ -927,12 +927,12 @@ _deps/glfw-build/tests/CMakeFiles/cursor.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/empty.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/empty.dir/build.make _deps/glfw-build/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/empty.dir/build.make _deps/glfw-build/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=14,15,16 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=18,19,20 "Built target empty"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/empty.dir/rule
@@ -944,7 +944,7 @@ empty: _deps/glfw-build/tests/CMakeFiles/empty.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/empty.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/empty.dir/build.make _deps/glfw-build/tests/CMakeFiles/empty.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=14,15,16 "Finished codegen for target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=18,19,20 "Finished codegen for target empty"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/empty.dir/codegen
 
 # clean rule for target.
@@ -959,7 +959,7 @@ _deps/glfw-build/tests/CMakeFiles/empty.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/gamma.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/gamma.dir/build.make _deps/glfw-build/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/gamma.dir/build.make _deps/glfw-build/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=20,21 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=24,25,26 "Built target gamma"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
@@ -976,7 +976,7 @@ gamma: _deps/glfw-build/tests/CMakeFiles/gamma.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/gamma.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/gamma.dir/build.make _deps/glfw-build/tests/CMakeFiles/gamma.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=20,21 "Finished codegen for target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=24,25,26 "Finished codegen for target gamma"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/gamma.dir/codegen
 
 # clean rule for target.
@@ -991,12 +991,12 @@ _deps/glfw-build/tests/CMakeFiles/gamma.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/icon.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/icon.dir/build.make _deps/glfw-build/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/icon.dir/build.make _deps/glfw-build/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=44,45,46 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=47,48,49 "Built target icon"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/icon.dir/rule
@@ -1008,7 +1008,7 @@ icon: _deps/glfw-build/tests/CMakeFiles/icon.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/icon.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/icon.dir/build.make _deps/glfw-build/tests/CMakeFiles/icon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=44,45,46 "Finished codegen for target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=47,48,49 "Finished codegen for target icon"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/icon.dir/codegen
 
 # clean rule for target.
@@ -1023,12 +1023,12 @@ _deps/glfw-build/tests/CMakeFiles/icon.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/inputlag.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build.make _deps/glfw-build/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build.make _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=50,51,52 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=53,54,55 "Built target inputlag"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/inputlag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/inputlag.dir/rule
@@ -1040,7 +1040,7 @@ inputlag: _deps/glfw-build/tests/CMakeFiles/inputlag.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/inputlag.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build.make _deps/glfw-build/tests/CMakeFiles/inputlag.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=50,51,52 "Finished codegen for target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=53,54,55 "Finished codegen for target inputlag"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/inputlag.dir/codegen
 
 # clean rule for target.
@@ -1055,12 +1055,12 @@ _deps/glfw-build/tests/CMakeFiles/inputlag.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/joysticks.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build.make _deps/glfw-build/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build.make _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=53,54,55 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=56,57 "Built target joysticks"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/joysticks.dir/rule
@@ -1072,7 +1072,7 @@ joysticks: _deps/glfw-build/tests/CMakeFiles/joysticks.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/joysticks.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build.make _deps/glfw-build/tests/CMakeFiles/joysticks.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=53,54,55 "Finished codegen for target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=56,57 "Finished codegen for target joysticks"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/joysticks.dir/codegen
 
 # clean rule for target.
@@ -1087,12 +1087,12 @@ _deps/glfw-build/tests/CMakeFiles/joysticks.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/opacity.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/opacity.dir/build.make _deps/glfw-build/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/opacity.dir/build.make _deps/glfw-build/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=65,66 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=67,68 "Built target opacity"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/opacity.dir/rule
@@ -1104,7 +1104,7 @@ opacity: _deps/glfw-build/tests/CMakeFiles/opacity.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/opacity.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/opacity.dir/build.make _deps/glfw-build/tests/CMakeFiles/opacity.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=65,66 "Finished codegen for target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=67,68 "Finished codegen for target opacity"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/opacity.dir/codegen
 
 # clean rule for target.
@@ -1119,12 +1119,12 @@ _deps/glfw-build/tests/CMakeFiles/opacity.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/tearing.dir/build.make _deps/glfw-build/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/tearing.dir/build.make _deps/glfw-build/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=81,82 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=82,83 "Built target tearing"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/tearing.dir/rule
@@ -1136,7 +1136,7 @@ tearing: _deps/glfw-build/tests/CMakeFiles/tearing.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/tearing.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/tearing.dir/build.make _deps/glfw-build/tests/CMakeFiles/tearing.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=81,82 "Finished codegen for target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=82,83 "Finished codegen for target tearing"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/tearing.dir/codegen
 
 # clean rule for target.
@@ -1151,12 +1151,12 @@ _deps/glfw-build/tests/CMakeFiles/tearing.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/threads.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/threads.dir/build.make _deps/glfw-build/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/threads.dir/build.make _deps/glfw-build/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=83,84,85,86 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=84,85,86 "Built target threads"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/threads.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/threads.dir/rule
@@ -1168,7 +1168,7 @@ threads: _deps/glfw-build/tests/CMakeFiles/threads.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/threads.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/threads.dir/build.make _deps/glfw-build/tests/CMakeFiles/threads.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=83,84,85,86 "Finished codegen for target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=84,85,86 "Finished codegen for target threads"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/threads.dir/codegen
 
 # clean rule for target.
@@ -1183,7 +1183,7 @@ _deps/glfw-build/tests/CMakeFiles/threads.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/timeout.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/timeout.dir/build.make _deps/glfw-build/tests/CMakeFiles/timeout.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/timeout.dir/build.make _deps/glfw-build/tests/CMakeFiles/timeout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=87,88 "Built target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=87,88,89 "Built target timeout"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/timeout.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1200,7 +1200,7 @@ timeout: _deps/glfw-build/tests/CMakeFiles/timeout.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/timeout.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/timeout.dir/build.make _deps/glfw-build/tests/CMakeFiles/timeout.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=87,88 "Finished codegen for target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=87,88,89 "Finished codegen for target timeout"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/timeout.dir/codegen
 
 # clean rule for target.
@@ -1215,12 +1215,12 @@ _deps/glfw-build/tests/CMakeFiles/timeout.dir/clean:
 _deps/glfw-build/tests/CMakeFiles/title.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/title.dir/build.make _deps/glfw-build/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/title.dir/build.make _deps/glfw-build/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=89,90,91 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=90,91 "Built target title"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/title.dir/rule
@@ -1232,7 +1232,7 @@ title: _deps/glfw-build/tests/CMakeFiles/title.dir/rule
 # codegen rule for target.
 _deps/glfw-build/tests/CMakeFiles/title.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/title.dir/build.make _deps/glfw-build/tests/CMakeFiles/title.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=89,90,91 "Finished codegen for target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=90,91 "Finished codegen for target title"
 .PHONY : _deps/glfw-build/tests/CMakeFiles/title.dir/codegen
 
 # clean rule for target.
@@ -1252,7 +1252,7 @@ _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/all: _deps/glfw-build/src/
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/rule
@@ -1284,7 +1284,7 @@ _deps/glfw-build/tests/CMakeFiles/windows.dir/all: _deps/glfw-build/src/CMakeFil
 
 # Build rule for subdir invocation for target.
 _deps/glfw-build/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/glfw-build/tests/CMakeFiles/windows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles 0
 .PHONY : _deps/glfw-build/tests/CMakeFiles/windows.dir/rule

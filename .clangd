@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -I/Users/griffinstrier/projects/BlackholeSim/include
+    - -std=c++17
+  Remove:
+    - -W*
+
+Diagnostics:
+  ClangTidy:
+    Add: []
+    Remove: []
+    CheckOptions: []
+  UnusedIncludes: Strict

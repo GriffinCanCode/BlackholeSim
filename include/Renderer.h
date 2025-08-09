@@ -2,8 +2,13 @@
 #include "Shader.h"
 #include "Physics.h"
 #include "RayTracer.h"
-#include <GLFW/glfw3.h>
-#include <vector>
+#include "LightSystem.h"
+#include "RelativisticJets.h"
+#include "BlackHoleSonification.h"
+
+// Forward declaration for GLFW (actual header included in .cpp file)
+struct GLFWwindow;
+
 #include <memory>
 
 class Camera {
@@ -70,6 +75,20 @@ public:
     void setCameraPosition(const Vector4& position);
     void setCameraTarget(const Vector4& target);
     void setRenderMode(int mode) { render_mode_ = mode; }
+    void toggleLightRayVisualization() { show_light_rays_ = !show_light_rays_; }
+    bool getLightRayVisualization() const { return show_light_rays_; }
+    void toggleJetVisualization() { show_jets_ = !show_jets_; }
+    bool getJetVisualization() const { return show_jets_; }
+    void setJetLorentzFactor(float gamma) { jet_lorentz_factor_ = gamma; }
+    void setJetOpeningAngle(float angle) { jet_opening_angle_ = angle; }
+    
+    // Audio sonification controls
+    void toggleSonification() { audio_enabled_ = !audio_enabled_; }
+    bool isSonificationEnabled() const { return audio_enabled_; }
+    void setSonificationVolume(double volume);
+    void enableRelativisticAudioEffects(bool enabled);
+    void enableSpatialAudio(bool enabled);
+    std::string getPhysicsAudioBreakdown() const;
     
     // Performance monitoring
     double getFrameTime() const { return frame_time_; }
@@ -87,8 +106,14 @@ private:
     
     // Rendering components
     std::unique_ptr<Shader> blackhole_shader_;
+    std::unique_ptr<Shader> blackhole_optimized_shader_;
     std::unique_ptr<BlackHolePhysics> physics_;
     std::unique_ptr<BlackHoleRayTracer> raytracer_;
+
+    std::unique_ptr<SimpleLightSystem> light_system_;
+    std::unique_ptr<RelativisticJets> jets_;
+    std::unique_ptr<BlackHoleSonification> sonification_;
+    std::unique_ptr<BlackHoleAudioBuffer> audio_buffer_;
     std::unique_ptr<Camera> camera_;
     
     // Render data
@@ -97,6 +122,28 @@ private:
     // Settings
     int render_mode_;  // 0: Ray tracing, 1: Wireframe, 2: Debug
     double black_hole_mass_;
+    bool show_light_rays_;
+    bool show_jets_;
+    float jet_lorentz_factor_;
+    float jet_opening_angle_;
+    float jet_magnetic_field_;
+    Vector4 jet_axis_;
+    
+    // Audio sonification settings
+    bool audio_enabled_;
+    double audio_volume_;
+    bool relativistic_audio_effects_;
+    bool spatial_audio_enabled_;
+    
+    // Auto-movement settings
+    bool auto_movement_enabled_;
+    
+    // Performance optimization settings
+    bool use_optimized_rendering_;
+    bool dramatic_effects_enabled_; // Toggle for enhanced visual effects
+    float target_fps_;
+    float performance_scale_; // 0.1-1.0 for shader performance scaling
+    int current_lod_level_;   // 0-3 level of detail
     
     // Performance tracking
     double frame_time_;
@@ -110,6 +157,11 @@ private:
     bool first_mouse_;
     bool mouse_captured_;
     
+    // Control panel
+    bool show_control_panel_;
+    unsigned int ui_quad_VAO_, ui_quad_VBO_;
+    std::unique_ptr<Shader> ui_shader_;
+    
     // Setup functions
     bool setupOpenGL();
     bool loadShaders();
@@ -122,6 +174,12 @@ private:
     void updateUniforms();
     void renderUI();
     
+    // Control panel functions
+    void setupControlPanelGeometry();
+    void renderControlPanel();
+    void renderControlPanelContent(float x, float y, float width, float height);
+    void toggleControlPanel() { show_control_panel_ = !show_control_panel_; }
+    
     // Input callbacks (static functions for GLFW)
     static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
     static void mouseCallback(GLFWwindow* window, double xpos, double ypos);
@@ -131,4 +189,14 @@ private:
     // Utility functions
     void updatePerformanceStats();
     void printDebugInfo();
+    
+    // Audio sonification functions
+    void updateAudioSonification();
+    void initializeAudioSystem();
+    
+    // Performance optimization functions
+    void updateAdaptivePerformance();
+    void adjustPerformanceSettings();
+    void switchToOptimizedRendering();
+    void switchToStandardRendering();
 };

@@ -590,6 +590,126 @@ windows/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/windows.dir/build.make _deps/glfw-build/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
+src/BlackHoleSonification.o: src/BlackHoleSonification.cpp.o
+.PHONY : src/BlackHoleSonification.o
+
+# target to build an object file
+src/BlackHoleSonification.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o
+.PHONY : src/BlackHoleSonification.cpp.o
+
+src/BlackHoleSonification.i: src/BlackHoleSonification.cpp.i
+.PHONY : src/BlackHoleSonification.i
+
+# target to preprocess a source file
+src/BlackHoleSonification.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.i
+.PHONY : src/BlackHoleSonification.cpp.i
+
+src/BlackHoleSonification.s: src/BlackHoleSonification.cpp.s
+.PHONY : src/BlackHoleSonification.s
+
+# target to generate assembly for a file
+src/BlackHoleSonification.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.s
+.PHONY : src/BlackHoleSonification.cpp.s
+
+src/KerrPhysics.o: src/KerrPhysics.cpp.o
+.PHONY : src/KerrPhysics.o
+
+# target to build an object file
+src/KerrPhysics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o
+.PHONY : src/KerrPhysics.cpp.o
+
+src/KerrPhysics.i: src/KerrPhysics.cpp.i
+.PHONY : src/KerrPhysics.i
+
+# target to preprocess a source file
+src/KerrPhysics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.i
+.PHONY : src/KerrPhysics.cpp.i
+
+src/KerrPhysics.s: src/KerrPhysics.cpp.s
+.PHONY : src/KerrPhysics.s
+
+# target to generate assembly for a file
+src/KerrPhysics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.s
+.PHONY : src/KerrPhysics.cpp.s
+
+src/LightSystem.o: src/LightSystem.cpp.o
+.PHONY : src/LightSystem.o
+
+# target to build an object file
+src/LightSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o
+.PHONY : src/LightSystem.cpp.o
+
+src/LightSystem.i: src/LightSystem.cpp.i
+.PHONY : src/LightSystem.i
+
+# target to preprocess a source file
+src/LightSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.i
+.PHONY : src/LightSystem.cpp.i
+
+src/LightSystem.s: src/LightSystem.cpp.s
+.PHONY : src/LightSystem.s
+
+# target to generate assembly for a file
+src/LightSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.s
+.PHONY : src/LightSystem.cpp.s
+
+src/MelodiousCalculator.o: src/MelodiousCalculator.cpp.o
+.PHONY : src/MelodiousCalculator.o
+
+# target to build an object file
+src/MelodiousCalculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o
+.PHONY : src/MelodiousCalculator.cpp.o
+
+src/MelodiousCalculator.i: src/MelodiousCalculator.cpp.i
+.PHONY : src/MelodiousCalculator.i
+
+# target to preprocess a source file
+src/MelodiousCalculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.i
+.PHONY : src/MelodiousCalculator.cpp.i
+
+src/MelodiousCalculator.s: src/MelodiousCalculator.cpp.s
+.PHONY : src/MelodiousCalculator.s
+
+# target to generate assembly for a file
+src/MelodiousCalculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.s
+.PHONY : src/MelodiousCalculator.cpp.s
+
+src/PerformanceLogger.o: src/PerformanceLogger.cpp.o
+.PHONY : src/PerformanceLogger.o
+
+# target to build an object file
+src/PerformanceLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o
+.PHONY : src/PerformanceLogger.cpp.o
+
+src/PerformanceLogger.i: src/PerformanceLogger.cpp.i
+.PHONY : src/PerformanceLogger.i
+
+# target to preprocess a source file
+src/PerformanceLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.i
+.PHONY : src/PerformanceLogger.cpp.i
+
+src/PerformanceLogger.s: src/PerformanceLogger.cpp.s
+.PHONY : src/PerformanceLogger.s
+
+# target to generate assembly for a file
+src/PerformanceLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.s
+.PHONY : src/PerformanceLogger.cpp.s
+
 src/Physics.o: src/Physics.cpp.o
 .PHONY : src/Physics.o
 
@@ -614,6 +734,30 @@ src/Physics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.s
 .PHONY : src/Physics.cpp.s
 
+src/PhysicsFactory.o: src/PhysicsFactory.cpp.o
+.PHONY : src/PhysicsFactory.o
+
+# target to build an object file
+src/PhysicsFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o
+.PHONY : src/PhysicsFactory.cpp.o
+
+src/PhysicsFactory.i: src/PhysicsFactory.cpp.i
+.PHONY : src/PhysicsFactory.i
+
+# target to preprocess a source file
+src/PhysicsFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.i
+.PHONY : src/PhysicsFactory.cpp.i
+
+src/PhysicsFactory.s: src/PhysicsFactory.cpp.s
+.PHONY : src/PhysicsFactory.s
+
+# target to generate assembly for a file
+src/PhysicsFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.s
+.PHONY : src/PhysicsFactory.cpp.s
+
 src/RayTracer.o: src/RayTracer.cpp.o
 .PHONY : src/RayTracer.o
 
@@ -637,6 +781,30 @@ src/RayTracer.s: src/RayTracer.cpp.s
 src/RayTracer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.s
 .PHONY : src/RayTracer.cpp.s
+
+src/RelativisticJets.o: src/RelativisticJets.cpp.o
+.PHONY : src/RelativisticJets.o
+
+# target to build an object file
+src/RelativisticJets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o
+.PHONY : src/RelativisticJets.cpp.o
+
+src/RelativisticJets.i: src/RelativisticJets.cpp.i
+.PHONY : src/RelativisticJets.i
+
+# target to preprocess a source file
+src/RelativisticJets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.i
+.PHONY : src/RelativisticJets.cpp.i
+
+src/RelativisticJets.s: src/RelativisticJets.cpp.s
+.PHONY : src/RelativisticJets.s
+
+# target to generate assembly for a file
+src/RelativisticJets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlackHoleSimulator.dir/build.make CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.s
+.PHONY : src/RelativisticJets.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
@@ -755,12 +923,33 @@ help:
 	@echo "... triangle-vulkan"
 	@echo "... wave"
 	@echo "... windows"
+	@echo "... src/BlackHoleSonification.o"
+	@echo "... src/BlackHoleSonification.i"
+	@echo "... src/BlackHoleSonification.s"
+	@echo "... src/KerrPhysics.o"
+	@echo "... src/KerrPhysics.i"
+	@echo "... src/KerrPhysics.s"
+	@echo "... src/LightSystem.o"
+	@echo "... src/LightSystem.i"
+	@echo "... src/LightSystem.s"
+	@echo "... src/MelodiousCalculator.o"
+	@echo "... src/MelodiousCalculator.i"
+	@echo "... src/MelodiousCalculator.s"
+	@echo "... src/PerformanceLogger.o"
+	@echo "... src/PerformanceLogger.i"
+	@echo "... src/PerformanceLogger.s"
 	@echo "... src/Physics.o"
 	@echo "... src/Physics.i"
 	@echo "... src/Physics.s"
+	@echo "... src/PhysicsFactory.o"
+	@echo "... src/PhysicsFactory.i"
+	@echo "... src/PhysicsFactory.s"
 	@echo "... src/RayTracer.o"
 	@echo "... src/RayTracer.i"
 	@echo "... src/RayTracer.s"
+	@echo "... src/RelativisticJets.o"
+	@echo "... src/RelativisticJets.i"
+	@echo "... src/RelativisticJets.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"

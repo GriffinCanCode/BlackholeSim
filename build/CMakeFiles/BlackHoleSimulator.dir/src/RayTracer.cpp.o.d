@@ -753,6 +753,7 @@ CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/cstdarg \
+  /Users/griffinstrier/projects/BlackholeSim/include/LightSystem.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \

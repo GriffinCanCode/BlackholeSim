@@ -16,7 +16,14 @@ set(SOURCES
     src/RayTracer.cpp
     src/Renderer.cpp
     src/Physics.cpp
+    src/PhysicsFactory.cpp
+    src/KerrPhysics.cpp
     src/Shader.cpp
+    src/LightSystem.cpp
+    src/RelativisticJets.cpp
+    src/BlackHoleSonification.cpp
+    src/MelodiousCalculator.cpp
+    src/PerformanceLogger.cpp
 )
 
 # Create executable
@@ -29,6 +36,8 @@ if(APPLE)
         "-framework Cocoa"
         "-framework IOKit"
         "-framework CoreVideo"
+        "-framework CoreAudio"
+        "-framework AudioUnit"
     )
     target_compile_definitions(${PROJECT_NAME} PRIVATE GL_SILENCE_DEPRECATION)
     

@@ -128,10 +128,38 @@ CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/Physics.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.s
 
+CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp > CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/PhysicsFactory.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.s
+
+CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp > CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/KerrPhysics.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.s
+
 CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
 CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/Shader.cpp
 CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/Shader.cpp
 
 CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.i: cmake_force
@@ -142,13 +170,90 @@ CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/Shader.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.s
 
+CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/LightSystem.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/LightSystem.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/LightSystem.cpp > CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/LightSystem.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.s
+
+CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp > CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/RelativisticJets.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.s
+
+CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/BlackHoleSonification.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/BlackHoleSonification.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/BlackHoleSonification.cpp > CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/BlackHoleSonification.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.s
+
+CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/MelodiousCalculator.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/MelodiousCalculator.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/MelodiousCalculator.cpp > CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/MelodiousCalculator.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.s
+
+CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o: CMakeFiles/BlackHoleSimulator.dir/flags.make
+CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o: /Users/griffinstrier/projects/BlackholeSim/src/PerformanceLogger.cpp
+CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o: CMakeFiles/BlackHoleSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o -MF CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o.d -o CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o -c /Users/griffinstrier/projects/BlackholeSim/src/PerformanceLogger.cpp
+
+CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/griffinstrier/projects/BlackholeSim/src/PerformanceLogger.cpp > CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.i
+
+CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/griffinstrier/projects/BlackholeSim/src/PerformanceLogger.cpp -o CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.s
+
 # Object files for target BlackHoleSimulator
 BlackHoleSimulator_OBJECTS = \
 "CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o" \
 "CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.o" \
 "CMakeFiles/BlackHoleSimulator.dir/src/Renderer.cpp.o" \
 "CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.o" \
-"CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o"
+"CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o" \
+"CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o"
 
 # External object files for target BlackHoleSimulator
 BlackHoleSimulator_EXTERNAL_OBJECTS =
@@ -157,12 +262,19 @@ BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/main.cpp.o
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/RayTracer.cpp.o
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/Renderer.cpp.o
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/Physics.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/PhysicsFactory.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/KerrPhysics.cpp.o
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/Shader.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/LightSystem.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/RelativisticJets.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/BlackHoleSonification.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/MelodiousCalculator.cpp.o
+BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/src/PerformanceLogger.cpp.o
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/build.make
 BlackHoleSimulator: /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/System/Library/Frameworks/OpenGL.framework
 BlackHoleSimulator: _deps/glfw-build/src/libglfw3.a
 BlackHoleSimulator: CMakeFiles/BlackHoleSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable BlackHoleSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/griffinstrier/projects/BlackholeSim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable BlackHoleSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlackHoleSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

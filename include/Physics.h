@@ -2,6 +2,11 @@
 #include <array>
 #include <vector>
 #include <cmath>
+#include <memory>
+
+// Forward declarations
+class KerrPhysics;
+class IBlackHolePhysics;
 
 // Physical constants (in geometric units where c = G = 1)
 namespace Constants {
@@ -35,16 +40,33 @@ struct SphericalCoords {
         : r(r), theta(theta), phi(phi) {}
 };
 
+// Facade class providing backward compatibility while using the factory pattern internally
 class BlackHolePhysics {
 public:
-    BlackHolePhysics(double mass_solar_units = 1.0);
+    BlackHolePhysics(double mass_solar_units = 1.0, double spin_parameter = 0.0);
+    ~BlackHolePhysics();  // Defined in cpp to ensure IBlackHolePhysics is complete
     
-    // Core physics calculations
-    double schwarzschildRadius() const { return schwarzschild_radius_; }
-    double photonSphere() const { return 1.5 * schwarzschild_radius_; }
-    double innerStableCircularOrbit() const { return 3.0 * schwarzschild_radius_; }
+    // Core physics calculations - delegated to internal physics engine
+    double schwarzschildRadius() const;
+    double photonSphere() const;
+    double innerStableCircularOrbit() const;
     
-    // Schwarzschild metric components
+    // Kerr metric support
+    bool isRotating() const;
+    double getSpinParameter() const;
+    void setSpinParameter(double a);
+    
+    // Mass management
+    double getMass() const;
+    void setMass(double mass_solar_units);
+    
+    // Enhanced properties for rotating black holes
+    double outerHorizonRadius() const;
+    double innerHorizonRadius() const;
+    double ergosphereRadius(double theta = 0.0) const;
+    bool isInErgosphere(double r, double theta) const;
+    
+    // Metric components
     double metricGtt(double r) const;
     double metricGrr(double r) const;
     double metricGthetatheta(double r) const;
@@ -63,18 +85,23 @@ public:
     
     // Ray tracing utilities
     double adaptiveStepSize(double r) const;
-    bool isInsideEventHorizon(double r) const { return r < schwarzschild_radius_; }
+    bool isInsideEventHorizon(double r) const;
     
     // Gravitational lensing calculations
     double deflectionAngle(double impact_parameter) const;
     
-private:
-    double mass_;                    // Black hole mass in solar masses
-    double schwarzschild_radius_;   // Event horizon radius
+    // Factory access for advanced usage
+    const IBlackHolePhysics* getPhysicsEngine() const { return physics_engine_.get(); }
+    std::string getPhysicsType() const;
     
-    // Helper functions for geodesic calculations
-    std::array<double, 4> christoffelSymbols(const Vector4& pos, int mu, int nu, int lambda) const;
-    double christoffel(const Vector4& pos, int mu, int nu, int lambda) const;
+private:
+    std::unique_ptr<IBlackHolePhysics> physics_engine_;  // Factory-created physics implementation
+    double mass_;                                        // Cached for quick access
+    double spin_parameter_;                              // Cached for quick access
+    
+    // Internal helpers
+    void updatePhysicsEngine();
+    void syncParametersFromEngine();
 };
 
 // Utility functions for vector operations
